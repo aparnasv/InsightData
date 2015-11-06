@@ -13,6 +13,14 @@ files in the "tweet_output" directory.
 
 
 
+********************************
+# Troubleshooting: 
+
+(i) The output file gets appended when the program is re-run with a different input file.
+
+Solution: Delete output files. The program waits for a dynamically updated input file and hence the program assumes the new input file to be part of a dynamically updated file
+
+
 
 
 
