@@ -1,5 +1,4 @@
 # InsightData  
-Java codes for the Insight coding challenge
 *******************************************
 
 This package consists of an custom built JSON
