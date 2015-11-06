@@ -37,9 +37,9 @@ public class Insight_Data {
         String tweet, text,output, tag, timestamp = null;        
         HashMap h;
         boolean flag, tweet_arrived = false; 
-        br = new BufferedReader(new FileReader("C:\\Users\\aparnas\\Documents\\NetBeansProjects\\Insight_Data\\input.txt"));
-        writer = new BufferedWriter(new FileWriter("C:\\Users\\aparnas\\Documents\\NetBeansProjects\\Insight_Data\\tweet_output\\ft1.txt", true));
-        writedegree = new BufferedWriter(new FileWriter("C:\\Users\\aparnas\\Documents\\NetBeansProjects\\Insight_Data\\tweet_output\\ft2.txt", true));
+        br = new BufferedReader(new FileReader("../../tweet_input/tweets.txt"));
+        writer = new BufferedWriter(new FileWriter("../../tweet_output/ft1.txt", true));
+        writedegree = new BufferedWriter(new FileWriter("../../tweet_output/ft2.txt", true));
         Parser parser = new Parser();                
         Graph = new hashtagGraph();
         tweet = null;
