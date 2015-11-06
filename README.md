@@ -10,7 +10,16 @@ from the "tweet_input" directory and outputs
 cleaned tweets to the "ft1.txt" and the rolling 
 degree of the hastag graph to the "ft2.txt" 
 files in the "tweet_output" directory. 
+****************************
+# File Details
 
+Insight_Data.java - Main file for reading input, process the data and write the output to file.
+
+Parser.java - Parses the JSON string to the required format
+
+hastagGraph.java - Create the graph and update it
+
+Edge.java - Create the edge objects of the graph
 
 
 ********************************
